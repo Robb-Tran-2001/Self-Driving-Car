@@ -29,7 +29,7 @@ while True:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 256, 0), 2)
 
     #Render
-    cv2.imshow('Life Footage', frame)
+    cv2.imshow('Live Footage', frame)
     key = cv2.waitKey(1)
 
     #End if q or Q is pressed
